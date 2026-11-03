@@ -19,8 +19,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "calebsze"
-          git config --global user.email "226340496+calebsze@users.noreply.github.com"
+          git config --global user.name "caleb-skl"
+          git config --global user.email "226340496+caleb-skl@users.noreply.github.com"
           git add log.txt
           git commit -m "chore: automated daily update [skip ci]" || exit 0
           git push
